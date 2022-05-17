@@ -24,11 +24,8 @@ import com.app.model.Customer;
 import com.app.repository.CustomerRepository;
 import com.app.service.CustomerService;
 
-
-
-@CrossOrigin(origins = "http://localhost:4200")
 @RestController
-@RequestMapping("/api/v1")
+
 public class CustomerController {
 	@Autowired
     private CustomerRepository customerRepository;
